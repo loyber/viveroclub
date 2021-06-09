@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1440px" height="733px" viewBox="0 0 1440 733" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>2</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Marshmello_landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Marshmello_landngpage-Copy-2" fill="#3C37F1">
-            <path d="M0,0 L1440,0 L1440,642.391576 C1314,702.797192 1187.66667,733 1061,733 C871,733 566.667261,561.026611 379,545 C253.888493,534.315592 127.555159,566.779451 0,642.391576 L0,0 Z" id="2"></path>
-        </g>
-    </g>
+<svg width="1920" height="925" viewBox="0 0 1920 925" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1920 0H0V917.658C223.828 817.543 393.634 850.567 575.936 886.021C674.33 905.156 776.365 925 892.499 925C1066.63 925 1192.41 906.136 1314.45 887.832C1483.76 862.439 1645.89 838.122 1920 866.729V0Z" fill="#00C7E5"/>
 </svg>
