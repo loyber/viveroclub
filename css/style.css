@@ -30,6 +30,7 @@
 /* === Import template variables === */
 /*-------------------------------------------------------------------*/
 /* === SCSS Compass Functions === */
+
 @-moz-keyframes flash {
   0% {
     opacity: 1;
@@ -10767,6 +10768,34 @@ textarea.form-control {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+/*// BOTON PRIMARIO BANNER //*/
+
+.btn-banner {
+  background-color: #ffffff !important;
+  color: #062D37 !important;
+  border-radius: 12px !important;
+  border-style: none;
+  font-family: Work Sans, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin-right: .5rem;
+}
+
+.btn-banner-sec {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: #062D37 !important;
+  border-radius: 12px !important;
+  border-style: solid;
+  border-color: #ffffff !important;
+  font-family: Work Sans, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.btn-banner-sec:hover {
+  background-color: rgba(255, 255, 255, .12) !important; 
+}
+
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
@@ -12406,11 +12435,17 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 0.8rem !important;
+  border-radius: 8px !important;
+  margin: 0px !important;
+  font-family: Work Sans, sans-serif !important;
+  font-weight: 600 !important;
+  color: #062D37 !important;
 }
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  background-color: rgba(6, 45, 55, 0.1);
 }
 
 .nav-link.disabled {
@@ -12492,6 +12527,8 @@ input[type="button"].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  background-color: #ffffff !important;
+  height: 6rem !important;
 }
 
 .navbar > .container,
@@ -12553,6 +12590,7 @@ input[type="button"].btn-block {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  color: #062D37 !important;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
@@ -15223,6 +15261,10 @@ button.bg-dark:focus {
 
 .justify-content-between {
   justify-content: space-between !important;
+}
+
+.alinear-banner {
+  align-items: center !important;
 }
 
 .justify-content-around {
@@ -18348,8 +18390,11 @@ h6, .h6 {
 }
 
 .font-weight-medium {
+  font-family: Passion One, Work Sans, sans-serif !important;
   font-weight: 500;
 }
+
+margin-top: -2.5rem;
 
 .text-small {
   font-size: 13px;
@@ -18509,7 +18554,7 @@ h6, .h6 {
 }
 
 .navbar .navbar-nav .nav-item .nav-link.active {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(6, 45, 55, 0.1);
   border-radius: 50px;
 }
 
@@ -18620,7 +18665,7 @@ html {
 .home {
   background: url("../images/banner-bg.svg");
   background-repeat-y: no-repeat;
-  background-position: 0 -50px;
+  background-position: bottom;
   padding-top: 103px;
 }
 
@@ -18631,7 +18676,7 @@ html {
 }
 
 .main-banner {
-  padding: 4.2rem 0 14rem 0;
+  padding: 8rem 0 14rem 0;
   color: #ffffff;
   background-size: cover;
 }
@@ -18644,7 +18689,25 @@ html {
 }
 
 .main-banner .banner-title {
-  width: 56%;
+  width: 80%;
+}
+
+@media (max-width: 991px) {
+  .banner-principal {
+    margin-top: 4rem !important;
+  }
+}
+
+@media (max-width: 1240px) {
+  .banner-principal {
+    margin-top: 2rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-mobile {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 991px) {
