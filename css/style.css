@@ -10821,16 +10821,48 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.h1-sup {
+  font-size: 50%;
+}
+
+.h1-sub {
+  font-size: 25%;
+}
+
+.h6-suscription {
+  font-size: 92%;
+  color: #062D37;
+  font-family: work sans, open sans, sans-serif;
+}
+
+.h1-suscription {
+  color: #062D37;
+  font-family: Passion one, Work sans, Open sans, sans-serif;
+}
+
+.h6-strike {
+  color: lightgrey;
+}
+
+.p-suscripcion {
+  letter-spacing: 1px;
+}
+
+.span-off {
+  color: #A6D892;
+}
+
 .btn-primary {
-  color: #fff;
-  background-color: #3c37f1;
-  border-color: #3c37f1;
+  color: #062D37;
+  background-color: #A6D892;
+  font-family: Work sans, Rubik, sans-serif;
+  border-radius: 12px;
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #1913ee;
-  border-color: #1610e5;
+  color: #062D37;
+  background-color: #A6D892;
+  border-color: #719464;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -10856,15 +10888,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #1998ff;
-  border-color: #1998ff;
+  color: #062D37;
+  background-color: #fff;
+  border-color: #A6D892;
+  border-radius: 12px;
 }
 
 .btn-secondary:hover {
-  color: #fff;
-  background-color: #0085f2;
-  border-color: #007ee5;
+  color: #062D37;
+  background-color: #A6D892;
+  border-color: #A6D892;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
@@ -11094,14 +11127,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #3c37f1;
-  border-color: #3c37f1;
+  color: #062D37 !important;
+  border-color: #A6D892;
+  font-family: work sans, rubik, sans-serif;
+  border-radius: 12px;
 }
 
 .btn-outline-primary:hover {
-  color: #fff;
-  background-color: #3c37f1;
-  border-color: #3c37f1;
+  color: #062D37;
+  background-color: #A6D892;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -12445,7 +12479,7 @@ input[type="button"].btn-block {
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
-  background-color: rgba(6, 45, 55, 0.1);
+  background-color: rgba(116, 216, 146, 0.3);
 }
 
 .nav-link.disabled {
@@ -18394,6 +18428,27 @@ h6, .h6 {
   font-weight: 500;
 }
 
+.h6-icons {
+  font-family: Work Sans, sans-serif !important;
+  font-weight: 500;
+  font-size: 17px !important;
+  color: #062D37 !important;
+}
+
+p  {
+  font-family: Open sans, sans-serif;
+  font-weight: 400;
+}
+
+.text-figma {
+  color: #062D37 !important;
+}
+
+h5 {
+  font-family: Work sans, Rubik, sans-serif !important;
+  font-size: 19px;
+}
+
 margin-top: -2.5rem;
 
 .text-small {
@@ -18554,7 +18609,7 @@ margin-top: -2.5rem;
 }
 
 .navbar .navbar-nav .nav-item .nav-link.active {
-  background: rgba(6, 45, 55, 0.1);
+  background-color: rgba(116, 216, 146, 0.3);
   border-radius: 50px;
 }
 
@@ -18733,7 +18788,30 @@ section {
 }
 
 .services-box {
-  padding: 10px 100px 40px 0;
+  padding: 10px 10px 40px 0;
+}
+
+.renova-tu-hogar {
+  padding-top: 6.5rem;
+}
+
+@media (max-width: 1240px) {
+  .renova-tu-hogar {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .renova-tu-hogar {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .renova-tu-hogar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -18758,15 +18836,25 @@ section {
   height: 20px;
 }
 
+.h3-clientes {
+  letter-spacing: 0.3px;
+}
+
 .testimonial {
   background: #a70ff6 url("../images/testimonial-bg.svg");
-  padding: 100px 0 70px 0;
+  padding: 70px 0 70px 0;
   background-size: cover;
 }
 
 @media (max-width: 991px) {
   .testimonial {
     padding: 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial {
+    background-position: center;
   }
 }
 
@@ -18880,24 +18968,15 @@ section {
 }
 
 .pricing-box:hover {
-  background: #1998ff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .pricing-box:hover .title-text {
   color: #ffffff;
 }
 
-.pricing-box:hover .text-amount {
-  color: #ffffff;
-}
 
-.pricing-box:hover .pricing-list li {
-  color: #ffffff;
-}
 
-.pricing-box:hover .btn {
-  color: #ffffff;
-}
 
 /*-------------------------------------------------------------------*/
 /* === Components === */
@@ -19020,11 +19099,12 @@ section {
   -webkit-backface-visibility: visible;
   transition: opacity .2s ease;
   border-radius: 3;
-  border: solid 2px #3c37f1;
+  border: solid 2px #A6D892;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #3c37f1;
+  background: #A6D892;
+  border-color: #A6D892;
 }
 
 .owl-theme.owl-carousel-testimonial .owl-dots {
