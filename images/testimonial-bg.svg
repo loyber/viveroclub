@@ -1,27 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1440px" height="481px" viewBox="0 0 1440 481" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
-    <title>1</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
-            <stop stop-color="#A25CFF" offset="0%"></stop>
-            <stop stop-color="#A70FF6" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Marshmello_landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Marshmello_landngpage-Copy" transform="translate(0.000000, -2629.000000)">
-            <g id="1" transform="translate(0.000000, 2629.000000)">
-                <rect id="Rectangle" fill="url(#linearGradient-1)" x="1" y="0" width="1439" height="480"></rect>
-                <path d="M1334,100 L1440,100 L1440,318 L1334,318 C1331.23858,318 1329,315.761424 1329,313 L1329,105 C1329,102.238576 1331.23858,100 1334,100 Z" id="Rectangle" fill="#FFFFFF" opacity="0.11156064"></path>
-                <g id="Group-4" transform="translate(618.000000, 293.000000)" fill="#FFFFFF" opacity="0.11156064">
-                    <path d="M53,0 L211,-8.8817842e-16 C213.761424,-1.61112656e-14 216,2.23857625 216,5 L216,187 L48,187 L48,5 C48,2.23857625 50.2385763,-3.80913106e-16 53,-8.8817842e-16 Z" id="Rectangle-Copy-8"></path>
-                    <path d="M5,26 L163,26 C165.761424,26 168,28.2385763 168,31 L168,188 L0,188 L8.8817842e-16,31 C5.50001544e-16,28.2385763 2.23857625,26 5,26 Z" id="Rectangle-Copy-9"></path>
-                </g>
-                <path d="M1286,126 L1439,126 L1439,344 L1286,344 C1283.23858,344 1281,341.761424 1281,339 L1281,131 C1281,128.238576 1283.23858,126 1286,126 Z" id="Rectangle-Copy-7" fill="#FFFFFF" opacity="0.11156064"></path>
-                <path d="M1,50 L109,50 C111.761424,50 114,52.2385763 114,55 L114,263 C114,265.761424 111.761424,268 109,268 L1,268 L1,50 Z" id="Rectangle-Copy-10" fill="#FFFFFF" opacity="0.11156064"></path>
-                <path d="M5.89750471e-13,76 L61,76 C63.7614237,76 66,78.2385763 66,81 L66,289 C66,291.761424 63.7614237,294 61,294 L5.89750471e-13,294 L5.89750471e-13,76 Z" id="Rectangle-Copy-11" fill="#FFFFFF" opacity="0.11156064"></path>
-            </g>
-        </g>
-    </g>
+<svg width="1920" height="641" viewBox="0 0 1920 641" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1920" height="641" fill="#26D495"/>
+<path opacity="0.111561" fill-rule="evenodd" clip-rule="evenodd" d="M1851.24 86H1920V377H1851.24C1849.45 377 1848 374.012 1848 370.326V92.6743C1848 88.9882 1849.45 86 1851.24 86Z" fill="white"/>
+<path opacity="0.111561" fill-rule="evenodd" clip-rule="evenodd" d="M1800.89 121H1920V411H1800.89C1798.74 411 1797 408.022 1797 404.349V127.651C1797 123.978 1798.74 121 1800.89 121Z" fill="white"/>
+<path opacity="0.111561" fill-rule="evenodd" clip-rule="evenodd" d="M0 141H115.646C118.603 141 121 143.988 121 147.674V425.326C121 429.012 118.603 432 115.646 432H0V141Z" fill="white"/>
+<path opacity="0.111561" fill-rule="evenodd" clip-rule="evenodd" d="M519 641L519 495.726C519 492.011 524.668 489 531.661 489L1058.34 489C1065.33 489 1071 492.011 1071 495.726L1071 641L519 641Z" fill="white"/>
+<path opacity="0.111561" fill-rule="evenodd" clip-rule="evenodd" d="M0 176H53.6061C56.0328 176 58 178.978 58 182.651V459.349C58 463.022 56.0328 466 53.6061 466H0V176Z" fill="white"/>
+<path opacity="0.111561" fill-rule="evenodd" clip-rule="evenodd" d="M585 641L585 567.985C585 564.68 590.648 562 597.615 562L1122.39 562C1129.35 562 1135 564.68 1135 567.985L1135 641L585 641Z" fill="white"/>
 </svg>
