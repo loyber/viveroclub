@@ -9161,6 +9161,11 @@ pre code {
   margin-left: -14px;
 }
 
+.flex-sus {
+  display: flex;
+  flex-direction: row !important;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -10307,17 +10312,16 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #919aa3;
+  color: #a0a0a0;
   opacity: 1;
 }
 
 .form-control:disabled, .form-control[readonly] {
   background-color: #e9ecef;
-  opacity: 1;
 }
 
 select.form-control:focus::-ms-value {
-  color: #495057;
+  color: #000000;
   background-color: #fff;
 }
 
@@ -10488,6 +10492,7 @@ textarea.form-control {
 .was-validated .form-control:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback,
 .form-control.is-valid ~ .valid-tooltip {
   display: block;
+  
 }
 
 .was-validated textarea.form-control:valid, textarea.form-control.is-valid {
@@ -10852,17 +10857,31 @@ fieldset:disabled a.btn {
   color: #A6D892;
 }
 
+.btn-big {
+  padding: 14px 0px;
+}
+
+.col-menos-14 {
+  padding-left: 0px !important;
+  margin-top: 1.5rem;
+}
+
+.textos-descripcion {
+  padding-bottom: 0.25rem !important;
+}
+
 .btn-primary {
   color: #062D37;
   background-color: #A6D892;
   font-family: Work sans, Rubik, sans-serif;
   border-radius: 12px;
+  border: 1px solid #A6D892 !important;
 }
 
 .btn-primary:hover {
   color: #062D37;
   background-color: #A6D892;
-  border-color: #719464;
+  border-color: #719464 !important;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -12523,6 +12542,10 @@ input[type="button"].btn-block {
   margin-top: -1px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.margin-price {
+  margin-top: 0 !important;
 }
 
 .nav-pills .nav-link {
@@ -16119,7 +16142,7 @@ button.bg-dark:focus {
 
 .mt-4,
 .my-4 {
-  margin-top: 1.5rem !important;
+  margin-top: 1.5rem;
 }
 
 .mr-4,
@@ -18154,6 +18177,7 @@ body {
   -moz-box-shadow: none;
   box-shadow: none;
   outline: 0;
+  color: #000000;
 }
 
 a,
@@ -18985,15 +19009,49 @@ section {
 }
 
 /* Forms */
+
+.form-class {
+  margin-top: 1.5rem;
+}
+
 .form-group {
   margin-bottom: 1.5rem;
 }
 
 .form-control {
-  border: 1px solid #f1efef;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  border: none;
   font-weight: 400;
   font-size: 14px;
+  color: #a0a0a0;
+  font-family: Open sans, Work sans, sans-serif;
   height: auto;
+}
+
+.form-control:hover {
+  background-color: #ffffff;
+  border: 2px solid #f8f8f8;
+}
+
+.form-control:active {
+  color: #000;
+}
+
+.form-control:focus-within {
+  color: #000;
+}
+
+.form-control:visited {
+  color: #000;
+}
+
+.form-control:focus-visible {
+  color: #000;
+}
+
+.form-control:target {
+  color: #000;
 }
 
 /* Toggle Switch */
