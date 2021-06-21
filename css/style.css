@@ -8933,6 +8933,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  color: #233862;
 }
 
 h1, .h1 {
@@ -9048,6 +9049,11 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.img0 {
+  opacity: 0 !important;
+  transform: scale(0) !important;
 }
 
 .img-thumbnail {
@@ -10766,8 +10772,10 @@ textarea.form-control {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 11px 30px;
+  padding: 15px 32px !important;
+  border-radius: 12px !important;
   font-size: 0.875rem;
+  font-family: Work sans, Rubik, sans-serif !important;
   line-height: 1.5;
   border-radius: 50px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -10775,27 +10783,7 @@ textarea.form-control {
 
 /*// BOTON PRIMARIO BANNER //*/
 
-.btn-banner {
-  background-color: #ffffff !important;
-  color: #062D37 !important;
-  border-radius: 12px !important;
-  border-style: none;
-  font-family: Work Sans, sans-serif !important;
-  font-size: 16px !important;
-  font-weight: 600 !important;
-  margin-right: .5rem;
-}
 
-.btn-banner-sec {
-  background-color: rgba(0, 0, 0, 0) !important;
-  color: #062D37 !important;
-  border-radius: 12px !important;
-  border-style: solid;
-  border-color: #ffffff !important;
-  font-family: Work Sans, sans-serif !important;
-  font-size: 16px !important;
-  font-weight: 600 !important;
-}
 
 .btn-banner-sec:hover {
   background-color: rgba(255, 255, 255, .12) !important; 
@@ -10841,7 +10829,7 @@ fieldset:disabled a.btn {
 }
 
 .h1-suscription {
-  color: #062D37;
+  color: #233862;
   font-family: Passion one, Work sans, Open sans, sans-serif;
 }
 
@@ -10873,15 +10861,12 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #062D37;
   background-color: #A6D892;
-  font-family: Work sans, Rubik, sans-serif;
-  border-radius: 12px;
   border: 1px solid #A6D892 !important;
 }
 
 .btn-primary:hover {
   color: #062D37;
-  background-color: #A6D892;
-  border-color: #719464 !important;
+  box-shadow: rgba(17, 12, 46, 0.25) 0px 48px 100px 0px !important;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -10910,7 +10895,6 @@ fieldset:disabled a.btn {
   color: #062D37;
   background-color: #fff;
   border-color: #A6D892;
-  border-radius: 12px;
 }
 
 .btn-secondary:hover {
@@ -18465,7 +18449,7 @@ p  {
 }
 
 .text-figma {
-  color: #062D37 !important;
+  color: #233862 !important;
 }
 
 h5 {
@@ -18481,7 +18465,7 @@ margin-top: -2.5rem;
 
 .footer {
   color: #e5e5e5;
-  background: #3c37f1 url(../images/footer_bg.svg);
+  background: #233862;
   background-size: cover;
   background-position: left bottom;
 }
@@ -18502,6 +18486,7 @@ margin-top: -2.5rem;
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: .875rem;
+  color: #fff;
 }
 
 .footer .footer-top .social-icons {
@@ -18524,7 +18509,7 @@ margin-top: -2.5rem;
 }
 
 .footer .footer-bottom {
-  background: rgba(255, 255, 255, 0.07);
+  background: #172748 !important;
   padding: 30px 0;
   border-top: 1px solid rgba(151, 151, 151, 0.07);
 }
@@ -18566,7 +18551,7 @@ margin-top: -2.5rem;
 }
 
 .navbar .navbar-brand img {
-  width: 200px;
+  width: 160px;
 }
 
 @media (max-width: 991px) {
@@ -18653,6 +18638,7 @@ margin-top: -2.5rem;
 .navbar .navbar-toggler-icon {
   height: auto;
 }
+
 
 @media (max-width: 991px) {
   .navbar .navbar-collapse {
@@ -18747,6 +18733,21 @@ html {
   background-position: bottom;
   padding-top: 103px;
 }
+
+.home2 {
+  background: url("../images/fondo_img.png");
+  background-repeat-y: no-repeat;
+  background-position: bottom;
+  padding-top: 103px;
+}
+
+.home3 {
+  background: url("../images/background-contact.svg");
+  background-repeat-y: no-repeat;
+  background-position: top;
+  padding-top: 103px;
+  padding-bottom: 103px;
+} 
 
 @media (max-width: 991px) {
   .home {
@@ -18865,7 +18866,6 @@ section {
 }
 
 .testimonial {
-  background: #a70ff6 url("../images/testimonial-bg.svg");
   padding: 70px 0 70px 0;
   background-size: cover;
 }
@@ -19208,12 +19208,12 @@ section {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  border: 1px solid #f1efef;
+  border: 1px solid #233862;
   margin-right: 1rem;
 }
 
 .flipster-custom-nav .flipster-custom-nav-item .flipster-custom-nav-link.active {
-  background: #f1efef;
+  background: #233862;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
