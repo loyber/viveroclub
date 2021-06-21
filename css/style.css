@@ -10233,6 +10233,21 @@ pre code {
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
+  .owl-item {
+    width: 200px !important;
+  }
+
+  .owl-stage { 
+    width: 6000px !important; 
+  }
+
+  .owl-stage-outer { 
+    height: 300px !important; 
+  }
+
+  .owl-dots { 
+    margin-top: 70px !important; 
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -19000,6 +19015,19 @@ section {
 }
 
 
+@media (max-width: 991px) {
+  .pepito {
+    display: block !important;
+    text-align: left !important;
+  }
+  .pepito div {
+    display: block !important;
+  }
+}
+
+
+
+
 
 
 /*-------------------------------------------------------------------*/
@@ -19108,6 +19136,11 @@ section {
 }
 
 /* Rounded sliders */
+
+.owl-item {
+  width: ;
+}
+
 .owl-carousel .owl-item {
   border-radius: 19.5px;
 }
@@ -19214,6 +19247,10 @@ section {
 
 .flipster-custom-nav .flipster-custom-nav-item .flipster-custom-nav-link.active {
   background: #233862;
+}
+
+.flipster {
+  overflow-x: visible;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
