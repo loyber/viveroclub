@@ -12606,6 +12606,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
   background-color: #ffffff !important;
   height: 6rem !important;
+  box-shadow: rgb(17 12 46 / 2%) 0px 48px 100px 0px !important;
 }
 
 .navbar > .container,
