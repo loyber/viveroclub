@@ -18774,7 +18774,7 @@ html {
 .home2 {
   background: url("../images/fondo_img.png");
   background-repeat-y: no-repeat;
-  background-position: bottom;
+  background-position: center;
   padding-top: 103px;
 }
 
@@ -18840,7 +18840,27 @@ html {
   .main-banner .banner-title {
     width: 100%;
   }
+  .home2 {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: -500px;
+    padding-top: 103px;
+  }
 }
+
+@media (max-width: 576px) {
+  .home2 {
+    height: 650px;
+    background: url("../images/fondo_img_mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 103px;
+  }
+}
+
+
+
 
 section {
   padding: 120px 0 0 0;
