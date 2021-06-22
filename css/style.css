@@ -18785,6 +18785,15 @@ html {
   padding-bottom: 103px;
 } 
 
+.h3-contactanos {
+  margin-top: 0 !important;
+}
+
+.img-contactanos {
+  height: auto;
+}
+
+
 @media (max-width: 991px) {
   .home {
     padding-top: 71px;
