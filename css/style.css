@@ -10234,7 +10234,8 @@ pre code {
     border: 0;
   }
   .owl-item {
-    width: 200px !important;
+    width: 300px !important;
+    margin-right: 0 !important;
   }
 
   .owl-stage { 
@@ -10242,12 +10243,14 @@ pre code {
   }
 
   .owl-stage-outer { 
-    height: 300px !important; 
+    height: 500px !important;
+    margin-bottom: -100px !important; 
   }
 
   .owl-dots { 
     margin-top: 70px !important; 
   }
+
 }
 
 @media (max-width: 767.98px) {
@@ -10880,8 +10883,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:hover {
+  transform: scale(1.01);
   color: #062D37;
   box-shadow: rgba(17, 12, 46, 0.25) 0px 48px 100px 0px !important;
+}
+
+.btn-primary:active {
+  color: #062D37 !important;
+  background-color: #9bc58a !important;
+  border: 1px solid #9bc58a !important;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -10916,7 +10926,11 @@ fieldset:disabled a.btn {
   color: #062D37;
   background-color: #A6D892;
   border-color: #A6D892;
+  transform: scale(1.01);
 }
+
+
+
 
 .btn-secondary:focus, .btn-secondary.focus {
   box-shadow: 0 0 0 0.2rem rgba(60, 167, 255, 0.5);
@@ -11154,6 +11168,13 @@ fieldset:disabled a.btn {
 .btn-outline-primary:hover {
   color: #062D37;
   background-color: #A6D892;
+  transform: scale(1.01);
+}
+
+.btn-outline-primary:active {
+  color: #062D37 !important;
+  background-color: #9bc58a !important;
+  border: 1px solid #9bc58a !important;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -19252,5 +19273,7 @@ section {
 .flipster {
   overflow-x: visible;
 }
+
+
 
 /*# sourceMappingURL=maps/style.css.map */
