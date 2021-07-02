@@ -10859,8 +10859,12 @@ fieldset:disabled a.btn {
   letter-spacing: 1px;
 }
 
+.linea {
+  margin: -7px 0 10px 0;
+}
+
 .span-off {
-  color: #E97644;
+  color: #6BBA5E;
 }
 
 .btn-big {
@@ -12548,7 +12552,7 @@ input[type="button"].btn-block {
   bottom: 60px;
   left: -50px;
   z-index: -1;
-  opacity: .75;
+  opacity: .5;
 } 
 
 .nav-tabs .nav-link {
@@ -18833,6 +18837,18 @@ html {
     padding-top: 71px;
   }
 }
+
+@media (max-width: 991px) {
+  .home3 {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .img-contacto {
+    margin-bottom: 50px;
+  }
+}
+
+
 
 .main-banner {
   padding: 8rem 0 14rem 0;

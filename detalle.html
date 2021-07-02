@@ -37,14 +37,17 @@
 						<a href="javascript:;" class="close-menu"><i class="mdi mdi-close"></i></a>
 					</div>
 					<ul class="navbar-nav ml-auto align-items-center">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html">Inicio</a>
+						<li class="nav-item active">
+							<a class="nav-link" href="#home">Inicio <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#services">¿Cómo funciona?</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#about">Renová tu hogar</a>
+							<a class="nav-link" href="#about">¿Quiénes somos?</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#plans">Suscripciones</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#projects">Productos</a>
@@ -53,10 +56,7 @@
 							<a class="nav-link" href="#testimonial">Comentarios</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#plans">Suscripciones</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link btn btn-primary" href="#contact">¡Contactanos!</a>
+							<a class="nav-link btn btn-primary nav-btn-nav" href="#contact">¡Contactanos!</a>
 						</li>
 					</ul>
 				</div>
@@ -81,6 +81,7 @@
     
                             <div class="textos-descripcion">
                                 <h6 class="mb-3 mt-4 font-weight-medium h6-icons">Cuidado de la planta</h6>
+								<hr class="linea">
                                 <ul class="navbar-nav ml-auto align-items-center flex-sus">
                                     <li class="nav-item active">
                                         <a class="nav-link" href="#para-interior">Para interior</a>
@@ -93,6 +94,7 @@
 
                             <div class="textos-descripcion">
                                 <h6 class="mb-3 mt-4 font-weight-medium h6-icons">Tamaños de las plantas</h6>
+								<hr class="linea">
                                 <ul class="navbar-nav ml-auto align-items-center flex-sus">
                                     <li class="nav-item">
                                         <a class="nav-link" href="#p-grande">Grande</a>
@@ -257,34 +259,15 @@
 				<div class="container">
 					<div class="row" data-aos="fade-up" data-aos-offset="-500">
 						<div class="col-sm-12">
-							<div class="d-sm-flex justify-content-between align-items-center mb-2">
-								<div>
-									<h3 class="font-weight-medium text-dark text-figma">Otras suscripciones</h3>
-
-									<!-- <h5 class="text-dark ">Lorem ipsum dolor sit amet, consectetur 
-										pretium pretium tempor. Lorem ipsum dolor </h5>
-									-->
-								</div>
-
-								<!-- SWITCH
-								<div class="mb-5 mb-lg-0 mt-3 mt-lg-0">
-									<div class="d-flex align-items-center">
-										<p class="mr-2 font-weight-medium monthly text-active check-box-label">Monthly</p>
-										<label class="toggle-switch toggle-switch">
-										<input type="checkbox" checked  id="toggle-switch">
-										<span class="toggle-slider round"></span>
-										</label>
-										<p class="ml-2 font-weight-medium yearly check-box-label">Yearly</p>
-									</div>
-								</div>
-								-->
-							</div>
+							<h3 class="font-weight-medium text-dark text-figma title-h3">Otras suscripciones</h3>
 						</div>
 					</div>
 
 					<div class="row"  data-aos="fade-up" data-aos-offset="-300">
 						
-						<div class="col-sm-6">
+						<div class="col-lg-2"></div>
+						
+						<div class="col-sm-4">
 							<div class="pricing-box">
 								<img src="images/starter.svg" alt="starter">
 								<p class="p-suscripcion">COMPRA ÚNICA</p>
@@ -300,7 +283,7 @@
 							</div>
 						</div>
 
-						<div class="col-sm-6">
+						<div class="col-sm-4">
 							<div class="pricing-box">
 								<img src="images/premium.svg" alt="starter">
 								<p class="p-suscripcion">SUSCRIPCIÓN POR 1 AÑO</p>
@@ -316,49 +299,53 @@
 							</div>
 						</div>
 
+						<div class="col-lg-2"></div>
+
 					</div>
 				</div>
 			</section>
 
-            <section class="contactus" id="contact">
-                <div class="container">
-                    <div class="row mb-5 pb-5">
-                        <div class="col-sm-5" data-aos="fade-up" data-aos-offset="-500">
-                            <img src="images/contact.jpg" alt="contact" class="img-fluid">
-                        </div>
-                        <div class="col-sm-7" data-aos="fade-up" data-aos-offset="-500">
-                            <h3 class="font-weight-medium text-dark mt-5 mt-lg-0 text-figma">¡Contactanos!</h3>
-    
-                            <!-- SUBTITULO
-                                <h5 class="text-dark mb-5">Lorem ipsum dolor sit amet, consectetur pretium</h5>
-                            -->
-    
-                            <form>
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="name" placeholder="Nombre*">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" id="mail" placeholder="Correo electrónico*">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="form-group">
-                                            <textarea name="message" id="message" class="form-control" placeholder="Mensaje*" rows="5"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <a href="#" class="btn btn-secondary">Enviar</a>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div class="home3">
+				<section class="contactus" id="contact">
+					<div class="container">
+						<div class="row mb-5 pb-5">
+							<div class="col-md-5 col-sm-12 img-contacto">
+								<img src="images/contact.jpg" alt="contact" class="img-fluid img-contactanos">
+							</div>
+							<div class="col-md-7 col-sm-12">
+								<h3 class="font-weight-medium text-dark mt-5 mt-lg-0 text-figma h3-contactanos">¿Tenés alguna duda?</h3>
+	
+								<!-- SUBTITULO
+									<h5 class="text-dark mb-5">Lorem ipsum dolor sit amet, consectetur pretium</h5>
+								-->
+	
+								<form class="form-class">
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<input type="text" class="form-control" id="name" placeholder="Nombre *">
+											</div>
+										</div>
+										<div class="col-sm-12">
+											<div class="form-group">
+												<input type="email" class="form-control" id="mail" placeholder="Correo electrónico *">
+											</div>
+										</div>
+										<div class="col-sm-12">
+											<div class="form-group">
+												<textarea name="message" id="message" class="form-control" placeholder="Mensaje *" rows="5"></textarea>
+											</div>
+										</div>
+										<div class="col-sm-12">
+											<a href="#" class="btn btn-secondary">Enviar</a>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
 			
 		</div>
 
