@@ -24,10 +24,11 @@
 			$('.collapsing').toggleClass('show');
 			$('body').addClass("sidebar-overlay");
 		});
-		$("#mobile-menu-overlay, .close-menu, .nav-link").click(function() {
+		
+		$("#mobile-menu-overlay, .close-menu").click(function() {
 			$('.collapse').toggleClass('show');
 			$('body').removeClass("sidebar-overlay");
-		});
+		}); 
 
 		$("a.nav-link").on('click', function(event) {
 			if (this.hash !== "") {
@@ -74,6 +75,17 @@
 				$('.yearly').addClass("text-active");
 				$("#toggle-switch").removeAttr("checked");
 			}
+		});
+
+		$('.nav-item.filtro').click(function(e) {
+			$('.nav-item.filtro.active').removeClass('active');
+			console.log($(e.target))
+			$(e.target).closest('.nav-item.filtro').addClass('active');
+		});
+
+		$('.nav-item.filtro-size').click(function(e) {
+			$('.nav-item.filtro-size.active').removeClass('active');
+			$(e.target).closest('.nav-item.filtro-size').addClass('active');
 		});
 
 		// counter Satisfied clients
